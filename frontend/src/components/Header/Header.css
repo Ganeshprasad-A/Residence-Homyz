@@ -1,0 +1,36 @@
+
+.h-menu  {
+       color: white;
+}
+.h-container {
+       justify-content: space-around;
+}
+.h-container img{
+       cursor: pointer;
+}
+.h-menu{
+       gap:2rem;
+}
+
+.h-menu ul
+{
+       display: flex;
+       justify-content: space-evenly;
+       width:800px;
+      list-style-type: none;
+}
+.h-menu ul li
+{
+       background-color:transparent;
+       color: white;
+       padding:10px 20px;
+       border-radius: 7px;
+       transition: all 0.5s ease;
+       font-weight: 500;
+}
+.h-menu ul li:hover
+{
+       background-color:white;
+       color: black;
+       padding: 10px 30px;
+}

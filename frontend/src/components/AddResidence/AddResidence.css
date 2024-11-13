@@ -1,0 +1,41 @@
+.main
+{
+    /* background-color: aqua; */
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+.form
+{
+    /* background-color: brown; */
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    height:60%;
+}
+.form input::placeholder
+{
+    padding-left:3px; 
+}
+.form input
+{
+    outline-color:rgb(70, 70, 254);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.form button
+{
+    padding:10px 20px;
+    border-radius:7px ;
+    border:none;
+    line-height: 10px;
+    color:white;
+    background:linear-gradient(78deg,rgb(41, 132, 210),blue);
+    box-shadow: 2px 2px 3px  rgba(0,0,0,0.3);
+    font-weight: 500;
+    cursor: pointer;   
+}
+.form button:hover
+{
+    transform: scale(1.1);
+}
